@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">N.E.C.O. fishBook</string>
+    <string name="fish">Рыба</string>
+    <string name="na">Наживка</string>
+    <string name="sna">Снасти</string>
+    <string name="story">Истории</string>
+    <string name="category_2">Категории</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+</resources>

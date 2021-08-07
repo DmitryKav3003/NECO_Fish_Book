@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item android:title="@string/fish"
+            android:id="@+id/id_fish"
+            android:icon="@drawable/ic_fish"/>
+
+        <item android:title="@string/na"
+            android:id="@+id/id_na"
+            android:icon="@drawable/ic_na"/>
+
+        <item android:title="@string/sna"
+            android:id="@+id/id_sna"
+            android:icon="@drawable/ic_sna"/>
+
+        <item android:title="@string/story"
+            android:id="@+id/id_story"
+            android:icon="@drawable/ic_story"/>
+
+    </group>
+
+    <item android:title="category_2"
+        android:id="@+id/category_2">
+        <menu>
+            <item android:title="1"
+                android:id="@+id/one"/>
+
+            <item android:title="2"
+                android:id="@+id/two"/>
+
+        </menu>
+    </item>
+
+</menu>
